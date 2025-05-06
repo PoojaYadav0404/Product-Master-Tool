@@ -1,7 +1,7 @@
 function imageAccess() {
   var SS = SpreadsheetApp.getActiveSpreadsheet();
   var Sheet = SS.getSheetByName("Images");
-  var folderId = '1wF1hkQNPrN9bCESTAk3ODpn3WzcSt5eh9lgD4QvcIbZL0mbFAyM6pkNqEAVPgdE_LAXHR4cd';
+  var folderId = '1wF1hkQ';
   
   var destinationFolder = DriveApp.getFolderById(folderId);
   
