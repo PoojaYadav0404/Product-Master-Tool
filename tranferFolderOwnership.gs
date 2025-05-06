@@ -4,7 +4,7 @@ function tranferFolderOwnership() {
   var Ui = SpreadsheetApp.getUi();
   var UserId = Session.getActiveUser().getEmail();
     
-  var MainDrive = DriveApp.getFolderById("1wF1hkQNPrN9bCESTAk3ODpn3WzcSt5eh9lgD4QvcIbZL0mbFAyM6pkNqEAVPgdE_LAXHR4cd");
+  var MainDrive = DriveApp.getFolderById("1wF1hkQNPrN9bCEST");
   var CustCode = MainDrive.getFiles();
   
   while (CustCode.hasNext()) {
