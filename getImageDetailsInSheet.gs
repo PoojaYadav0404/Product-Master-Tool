@@ -1,7 +1,7 @@
 function getImageDetailsInSheet() {
   var SS = SpreadsheetApp.getActiveSpreadsheet();
   var Sheet = SS.getSheetByName("Product Master");
-  var folderId = '1wF1hkQNPrN9bCESTAk3ODpn3WzcSt5eh9lgD4QvcIbZL0mbFAyM6pkNqEAVPgdE_LAXHR4cd';
+  var folderId = '1wF1hkQNPrN9bCESTAk3ODpn3WzcS';
   
   var destinationFolder = DriveApp.getFolderById(folderId);
   
